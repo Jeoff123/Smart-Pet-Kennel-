@@ -32,6 +32,7 @@ The Smart Pet Kennel operates as follows:
 - The system uses a servo motor to open and close the lid of the pet food storage container.
 - Two water pumps are utilized: one for dispensing drinking water and the other for cleaning the area.
 - Users can control the system remotely through the ESP32-Cam module.
+- May Need To Give External Power Supply To The Pump And Servo As ESP32 CAM Has Limited Power Pins And Low Power
 
 ## Features
 
