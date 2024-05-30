@@ -20,8 +20,8 @@ To set up the Smart Pet Kennel, follow these steps:
 3. Ensure the `ESP.ino` and `ESP32Header.h` files are in the same directory.
 4. Before uploading, open `ESP32Header.h` and change the SSID and password to match your Wi-Fi network credentials:
    ```cpp
-const char * SSID = "Your Network(SSID) Name";
-const char * PASSWORD = "Your Network Password";
+   const char * SSID = "Your Network(SSID) Name";
+   const char * PASSWORD = "Your Network Password";
 
 3. Connect your ESP32-Cam module and upload the code.
 
