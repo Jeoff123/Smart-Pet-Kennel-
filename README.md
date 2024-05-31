@@ -1,5 +1,5 @@
-# Smart Pet Kennel
-
+<h1 align="center"> Smart Pet Kennel
+<h3 align="left">
 A system designed to dispense pet food and water, along with a cleaning mechanism, controlled by an ESP32-Cam module. The code is written in C++ and C language.
 
 ## Installation
