@@ -38,7 +38,8 @@ The Smart Pet Kennel operates as follows:
 
 - Automated dispensing of pet food and water.
 - Cleaning mechanism for maintaining a hygienic environment.
-- Remote control functionality via the ESP32-Cam module.
+- Remote control functionality via the ESP32-Cam module through A Web Interface.
+- Has Live Camera Feed.
 
 ## Contributing
 
@@ -55,4 +56,4 @@ For inquiries or further information, you can reach out via Instagram:
 
 ## Additional Information
 
-The project circuit diagram will be added later.
+The project circuit diagram Is Not Good Looking And The Water Pump Is Not In The Diagram. The Water Pump Can Be Controled By A Relay.
