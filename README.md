@@ -41,10 +41,6 @@ The Smart Pet Kennel operates as follows:
 - Remote control functionality via the ESP32-Cam module through A Web Interface.
 - Has Live Camera Feed.
 
-## Contributing
-
-Contributions to the Smart Pet Kennel project are welcome! For major changes, please open an issue first to discuss the proposed changes.
-
 ## License
 
 This project is licensed under the Creative Commons Legal Code CC0 1.0 Universal. For more information, see the [LICENSE](LICENSE) file.
