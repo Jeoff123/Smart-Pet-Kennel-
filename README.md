@@ -16,13 +16,12 @@ To set up the Smart Pet Kennel, follow these steps:
      ```
    - Click OK.
    - Go to Tools > Board > Boards Manager.
-   - Search for "esp32" and install the latest version.
+   - Search for _esp32_ and install the latest version.
 3. Ensure the `ESP.ino` and `ESP32Header.h` files are in the same directory.
 4. Before uploading, open `ESP32Header.h` and change the SSID and password to match your Wi-Fi network credentials:
    ```cpp
-   const char * SSID = "Your Network(SSID) Name";// Type In Your Network Name
-   const char * PASSWORD = "Your Network Password";// Type In Your Netwok's Password For Hosting The Web Interface
-
+   const char * SSID = "Your Network(SSID) Name"; // Type In Your Network Name
+   const char * PASSWORD = "Your Network Password"; // Type In Your Network's Password For Hosting The Web Interface
 3. Connect your ESP32-Cam module and upload the code.
 
 ## Usage
@@ -52,4 +51,4 @@ For inquiries or further information, you can reach out via Instagram:
 
 ## Additional Information
 
-The project circuit diagram Is Not Good Looking And The Water Pump Is Not In The Diagram. The Water Pump Can Be Controled By A Relay.
+The project circuit diagram Is Not Good Looking And The Water Pump Is Not In The Diagram. The Water Pump Can Be Controlled By A Relay.
