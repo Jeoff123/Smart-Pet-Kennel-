@@ -1,6 +1,6 @@
 <h1 align="center"> Smart Pet Kennel
 <h3 align="left">
-A system designed to dispense pet food and water, along with a cleaning mechanism, controlled by an ESP32-Cam module. The code is written in C++ and C language.
+A system designed to dispense pet food and water, along with a cleaning mechanism, controlled by an ESP32-Cam module. The code is written in C++, HTML, CSS And Javascript languages.
 
 ## Installation
 
@@ -51,4 +51,4 @@ For inquiries or further information, you can reach out via Instagram:
 ## Additional Information
 
 The project circuit diagram Is Not Good Looking And The Water Pump Is Not In The Diagram. The Water Pump Can Be Controlled By A Relay.
-The New UI For The Web Interface Has Been Added. (File Name:[UpdatedWebInterface.html](UpdatedWebInterface.html)
+The New UI For The Web Interface Has Been Added. (File Name:[UpdatedWebInterface.html](UpdatedWebInterface.html))
