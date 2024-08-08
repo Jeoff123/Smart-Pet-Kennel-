@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dog Food Dispenser</title>
   <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/svgs/solid/dog.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       text-align: center;
       background-color: #f0f8ff;
       color: #333;
@@ -17,6 +18,7 @@
     h1 {
       color: #333;
       margin-bottom: 20px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
     .button-container {
       display: flex;
@@ -31,25 +33,30 @@
       color: white;
       padding: 15px;
       text-align: center;
-      display: inline-block;
+      display: flex; /* Flexbox for centering */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
       font-size: 24px;
       margin: 10px;
       cursor: pointer;
       border-radius: 50%;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       width: 100px;
       height: 100px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
     }
     .button:hover {
       background-color: #45a049;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
     }
     #videoContainer {
       animation: scaleIn 0.5s ease;
       margin-top: 20px;
+      border: 2px solid #4CAF50;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     }
     #connectionStatus {
       font-weight: bold;
@@ -67,20 +74,21 @@
     }
     .icon {
       font-size: 30px;
-      margin-bottom: 5px;
+      margin: 0; /* Remove margin for better centering */
       transition: color 0.3s ease;
     }
     .switch-container {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: 20px;
     }
     .switch {
       position: relative;
       display: inline-block;
       width: 60px;
       height: 34px;
-      margin-left: 10px; /* Adjust margin as needed */
+      margin-left: 10px;
     }
     .switch input {
       opacity: 0;
@@ -95,7 +103,7 @@
       right: 0;
       bottom: 0;
       background-color: #ccc;
-      transition: .4s;
+      transition: background-color 0.4s;
       border-radius: 34px;
     }
     .slider:before {
@@ -106,7 +114,7 @@
       left: 4px;
       bottom: 4px;
       background-color: white;
-      transition: .4s;
+      transition: transform 0.4s;
       border-radius: 50%;
     }
     input:checked + .slider {
@@ -137,7 +145,6 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <h1>Dog Food Dispenser Control</h1>
@@ -201,4 +208,3 @@
   </script>
 </body>
 </html>
-
